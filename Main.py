@@ -9,8 +9,8 @@ root.title('Music Player')
 root.geometry('1000x500')
 
 # ---IMAGE---
-bg = PhotoImage(file='04 - Photo\\twice.png')
-bg1 = PhotoImage(file='04 - Photo\\twice2.png')
+bg = PhotoImage(file='twice.png')
+bg1 = PhotoImage(file='twice2.png')
 lbl = Label(root, image=bg)
 lbl1 = Label(root, image=bg1)
 lbl2 = Label(root, padx=10, pady=500, bg='grey')
@@ -23,27 +23,27 @@ pygame.mixer.init()
 
 # ---SONG FUNCTION---
 def play1():
-    pygame.mixer.music.load('03 - Audio\\TWICE - BEHIND THE MASK.mp3')
+    pygame.mixer.music.load('TWICE - BEHIND THE MASK.mp3')
     pygame.mixer.music.play(loops=0) # EXAMPLE 1
 
 def play2():
-    pygame.mixer.music.load('03 - Audio\\TWICE - DEPEND ON YOU.mp3')
+    pygame.mixer.music.load('TWICE - DEPEND ON YOU.mp3')
     pygame.mixer.music.play(loops=0)
 
 def play3():
-    pygame.mixer.music.load('03 - Audio\\TWICE - HANDLE IT.mp3')
+    pygame.mixer.music.load('TWICE - HANDLE IT.mp3')
     pygame.mixer.music.play(loops=0)
 
 def play4():
-    pygame.mixer.music.load('03 - Audio\\TWICE - HELL IN HEAVEN.mp3')
+    pygame.mixer.music.load('TWICE - HELL IN HEAVEN.mp3')
     pygame.mixer.music.play(loops=0)
 
 def play5():
-    pygame.mixer.music.load("03 - Audio\\TWICE - I CAN'T STOP ME.mp3")
+    pygame.mixer.music.load("\TWICE - I CAN'T STOP ME.mp3")
     pygame.mixer.music.play(loops=0)
 
 def play6():
-    pygame.mixer.music.load('03 - Audio\\TWICE - UP NO MORE.mp3')
+    pygame.mixer.music.load('TWICE - UP NO MORE.mp3')
     pygame.mixer.music.play(loops=0)
 
 # ---STOP AND PLAY FUNCTION---
